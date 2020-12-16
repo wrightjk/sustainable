@@ -1,0 +1,139 @@
+@charset "UTF-8";
+/* Add your custom CSS declarations below  */
+
+/* font styles 
+overall body: font-family: 'Montserrat', sans-serif;
+headers: font-family: 'Quicksand', sans-serif;
+*/
+
+/* colors
+bg #EBE6E0
+link #9E7362
+hover #BDACA4
+headers #BF9D9C
+body #46483B
+*/
+
+/* headers */
+h1, h2, h3 {
+	font-family: 'Quicksand', sans-serif;
+	text-align: center;
+	margin-top: 2em;
+	color: #BF9D9C;
+}
+
+h3 {
+	margin-top: 0;
+}
+
+h4 {
+	text-align: center;
+	margin-top: 1em;
+}
+
+/* copy */
+body {
+	font-family: 'Montserrat', sans-serif;
+	text-align: justify;
+	background: #EBE6E0;
+	color: #46483B;
+}
+
+p {
+	padding-top: 1em;
+	padding-left: 5em;
+	padding-right:5em;
+}
+
+/* nav styles */
+.nav-link {
+	color: #9E7362;
+	list-style-type: none;
+}
+
+.nav-link:hover {
+	color: #BDACA4;
+}
+
+/* link styles */
+a {
+	color: #9E7362;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #BDACA4;
+	text-decoration: none;
+	font-style: italic;
+}
+
+/* list styles */
+ul {
+	list-style-type: decimal;
+}
+
+li {
+	margin-bottom: 1.5em;
+	font-size: large;
+}
+
+/* id for disclaimer at bottom of index */
+#disc {
+	text-align: justify;
+	font-size: smaller;
+	color: #BDACA4;
+}
+
+/* class for more resources page */
+.more {
+	text-align: center;
+	display: flex;
+	justify-content: space-around;
+}
+
+/* button styles */
+.btn {
+	margin-top: 3em;
+    margin-bottom: 3rem;
+    color: #DDD6CE;
+}
+
+.btn:hover {
+	font-style: normal;
+	color: #C1B9B2;
+	text-decoration: none;
+}
+
+/* img classes for index */
+.twelve {
+	width: 1170px;
+	height: 300px;
+}
+
+.six {
+	width: 600px;
+	height: 300px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 99%;
+}
+
+/* changing figure width for resources page */
+.figure {
+	width: 300px;
+}
+
+figcaption {
+	text-align: justify;
+}
+
+/* footer class */
+.footer {
+	text-align: center;
+	color: #9E7362;
+}
+
